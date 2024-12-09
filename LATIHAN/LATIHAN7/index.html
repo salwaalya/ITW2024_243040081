@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup & Glow</title>
+    <link
+    href="https://fonts.goggleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+    rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <div class="hero">
+          <h2 class="heading">Makeup & Glow</h2>
+          <p class="sub heading">Makeup</p>
+        </div>
+        <div class="feature1">
+            <h4 class="price">IDR 450K</h4>
+            <p class="item">Makeup</p>
+        </div>
+        <div class="feature2">
+            <h4 class="price">IDR 500K</h4>
+            <P class="item">Skincare</P>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="brand">
+            <h1>Makeup & Glow</h1>
+        </div>
+        <ul class="menu-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section class="services">
+        <div class="service">
+            <div class="icon">
+                <h3>Peringatan!</h3>
+                <p>Pastikan memilih produk makeup dan skincare yang sesuai dengan jenis kulit, lakukan uji coba terlebih dahulu, dan jaga kebersihan saat menggunakannya. Jika ragu, konsultasikan dengan ahli dermatologi atau profesional kecantikan.</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="icon">
+                <h3>Update</h3>
+                <p>Kulit sehat, makeup cantik! Segera coba produk skincare dan makeup terbaru dari kami!</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="icon">
+                <h3>Coming Soon</h3>
+                <p>Something special is coming soon! Makeup & skincare terbaru untuk kulit lebih cerah dan tampilan memukau.</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="icon">
+                <h3>Bantuan</h3>
+                <p>Punya masalah atau pertanyaan? Jangan ragu untuk menghubungi kami, kami siap memberikan bantuan!</p>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+<script>
+const menuToggle=document.querySelector('.menu-toggle input');
+const nav=document.querySelector('nav ul');
+
+menuToggle.addEventListener('click',function(){
+nav.classList.toggle('slide');
+});
+</script>
+</body>
+</html>
